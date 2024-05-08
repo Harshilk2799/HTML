@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+</head>
+<body>
+    <!-- Form Project 2 -->
+    <h1>Job Application</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"> <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"> <br><br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone"> <br><br>
+
+        <label for="resume">Resume</label>
+        <input type="file" name="resume" id="resume"> <br><br>
+
+        <label for="experience">Experience (In year)</label>
+        <input type="number" name="experience" min="0" max="50" id="experience"> <br><br>
+
+        <fieldset>
+            <legend>Skills</legend>
+
+            <input type="checkbox" name="html" id="checkbox1">
+            <label for="checkbox1">HTML</label>
+
+            <input type="checkbox" name="css" id="checkbox2">
+            <label for="checkbox2">CSS</label>
+
+            <input type="checkbox" name="javascript" id="checkbox3">
+            <label for="checkbox3">Javascript</label>
+        </fieldset> <br>
+
+        <label for="education">Highest Education</label>
+        <select name="education" id="education">
+            <option value="High School">High School</option>
+            <option value="Diploma">Diploma</option>
+            <option value="Bachelor_Degree">Bachelor's Degree</option>  
+            <option value="Master_Degree">Master's Degree</option>  
+        </select> <br> <br>
+
+        <label for="">Availability</label>
+
+        <input type="radio" name="jobType" id="radio1">
+        <label for="radio1">Part-time</label>
+
+        <input type="radio" name="jobType" id="radio2">
+        <label for="radio2">Full-time</label> <br> <br>
+
+        <label for="comments">Additional Comments</label>
+        <textarea name="comments" id="comments" cols="23" rows="7"></textarea> <br><br>
+        
+        <input type="submit" value="Submit Application">
+
+    </form>
+</body>
+</html>
